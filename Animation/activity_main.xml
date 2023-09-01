@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout 
+xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:app="http://schemas.android.com/apk/res-auto"
+ xmlns:tools="http://schemas.android.com/tools"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ tools:context=".MainActivity">
+ <ImageView
+ android:id="@+id/shin"
+ android:layout_width="389dp"
+ android:layout_height="313dp"
+ android:layout_marginBottom="140dp"
+ android:onClick="animate1"
+ android:scaleX="0.5"
+ android:scaleY="0.5"
+ android:translationY="90dp"
+ app:layout_constraintBottom_toBottomOf="parent"
+ app:layout_constraintEnd_toEndOf="parent"
+ app:layout_constraintStart_toStartOf="parent"
+ app:srcCompat="@drawable/shinchan" />
+ <ImageView
+ android:id="@+id/chan"
+ android:layout_width="316dp"
+ android:layout_height="212dp"
+ android:layout_marginTop="80dp"
+ android:onClick="animate2"
+ app:layout_constraintEnd_toEndOf="parent"
+ app:layout_constraintHorizontal_bias="0.494"
+ app:layout_constraintStart_toStartOf="parent"
+ app:layout_constraintTop_toTopOf="parent"
+ app:srcCompat="@drawable/sinchan1" />
+</androidx.constraintlayout.widget.ConstraintLayout>
